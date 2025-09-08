@@ -7,13 +7,23 @@
 </head>
 <body>
     <script>
-        var a=20;
-        if(a%2==1){
-            document.write("number is odd<br>");
+        // var a=20;
+        // if(a%2==1){
+        //     document.write("number is odd<br>");
+        // }
+        // else{
+        //     document.write("number is even<br>");
+        // }
+        var a = 10, b = 25, c = 15;
+        var max;
+        if (a >= b && a >= c) {
+            max = a;
+        } else if (b >= a && b >= c) {
+            max = b;
+        } else {
+            max = c;
         }
-        else{
-            document.write("number is even<br>");
-        }
+        document.write("The maximum of " + a + ", " + b + ", and " + c + " is " + max + "<br>");
     </script>
 </body>
 </html>
