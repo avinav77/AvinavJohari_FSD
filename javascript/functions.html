@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Functions</title>
     <style>
-        #adi{
+        /* #adi{
             height: 200px;
             background-color: brown;
             width: 200px;
             border: 2px solid red;
-        }
+        } */
     </style>
 </head>
 <body>
@@ -30,8 +30,26 @@
         var difference = subtract(10, 5);
         document.write("<br>The difference is: " + difference);
     </script> -->
-    <div id="adi">
-        <button onclick="">Click</button>
+    <!-- <div id="adi">
+        <button onclick="abes()">Click</button>
+        <p id="abc"></p> -->
     </div>
+    <script>
+        // function abes(){
+        //     document.getElementById("abc").innerHTML = "Hello from abes function!";
+        // }
+        function red(){
+            document.body.style.backgroundColor = "red";
+        }
+        function blue(){
+            document.body.style.backgroundColor = "blue";
+        }
+        function green(){
+            document.body.style.backgroundColor = "green";
+        }
+    </script>
+    <button onclick="red()">RED</button>
+    <button onclick="blue()">Blue</button>
+    <button onclick="green()">Green</button>
 </body>
 </html>
