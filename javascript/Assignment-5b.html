@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .abc {
+            border: 2px solid black;
+            display: grid;
+        }
+
+        .controls {
+            height: 200px;
+            background-color: blanchedalmond;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="abc">
+        <div>
+            <img id="img1" src="burger.jpeg" alt="">
+        </div>
+        <div class="controls">
+            <button onclick="hide1()">Hide</button>
+        </div>
+    </div>
+
+    <div class="abc">
+        <div>
+            <img id="img2" src="" alt="">
+        </div>
+        <div class="controls">
+            <button onclick="show2()">Show</button>
+            <button onclick="change2()">Change</button>
+        </div>
+    </div>
+
+    <script>
+        function hide1() {
+            document.getElementById("img1").style.display = "none";
+        }
+
+        function show2() {
+            document.getElementById("img2").src = "burger.jpeg";
+        }
+
+        function change2() {
+            function change2() {
+                document.getElementById("img2").src = "burger2.jpeg";
+            }
+
+        }
+    </script>
+</body>
+
+</html>
