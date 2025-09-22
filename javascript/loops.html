@@ -6,36 +6,21 @@
     <title>Document</title>
 </head>
 <body>
-    <script>
-        // var i;
-        // for (let i = 0; i < n; i++) {
-        //     const element = array[i];
-            
-        // }
-
-
-
-
-    let i=4;
-    let j=5;
-    for (let index = 1; index <= 10; index++) {
-        if((4*index)%2==0){
-            console.log(`4*${index} = `+ 4*index+ " even")
-        }
-        else{
-            console.log(`4*${index} = `+ 4*index+ " odd")
-        }
-        
-    }
-    for (let index = 1; index <= 10; index++) {
-        if((j*index)%2==0){
-            console.log(`5*${index} =`+ 5*index+ " even")
-        }
-        else{
-            console.log(`5*${index} = `+ 5*index+ " odd")
-        }
-        
-    }
-    </script>
 </body>
+<script>
+    str1="Even :";
+    str2="Odd :";
+  for(i=2;i<=3;i++){
+    for(j=1;j<=10;j++){
+      document.write(`${i} X ${j} = ${i*j} <br/>,` );
+      if((i*j) % 2==0)str1+=`${i*j} `;
+      else str2+=`${i*j} `;
+    }
+    document.write('<br/>')
+   
+  }
+ document.write(str1)
+ document.write('<br/>')
+ document.write(str2)
+</script>
 </html>
