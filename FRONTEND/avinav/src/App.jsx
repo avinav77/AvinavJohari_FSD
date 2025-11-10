@@ -1,22 +1,19 @@
-import React from 'react'
-import Card from './components/Card.jsx'
 import './App.css'
-import Navbar from './components/Navbar.jsx'
-import Usestate from './components/Usestate.jsx'
-
-function App() {
+import {Navbar} from './Components/Navbar'
+import { Card } from './Components/Card'
+import Count from './components/Count'
+import Link1 from './components/Link1'
+ function App() {
   return (
     <div>
-      <Usestate/>
-      {/* <Navbar home="ABES Engineering College"/>
-      <br />
-      <Card name="aditya" age={25}/>
-      <br />
-      <Card name="john" age={30}/>
-      <br />
-      <Card name="jane" age={28}/> */}
-      </div>
+      {/* Abes College
+      <Navbar1 />
+      <Grid /> 
+      <UseeState /> */}
+      <Link1 />
+      <Count />
+    </div>
   )
-}
+ }    
 
 export default App

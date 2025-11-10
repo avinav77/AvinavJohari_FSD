@@ -3,4 +3,9 @@
     height: 300px;
     width: 300px;
     background-color: coral;
+    margin-right: 20px;
+}
+#book img{
+    margin-top: 5px;
+    margin-left: 45px;
 }
