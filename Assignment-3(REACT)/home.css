@@ -1,0 +1,24 @@
+.abcd{
+    background-color: skyblue;
+    border: 2px solid brown;
+    height:80vh;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+}
+.supple{
+    background-color: rgb(250, 251, 252);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+.supple div{
+    padding: 20px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 4px solid rgb(146, 167, 180);
+}
